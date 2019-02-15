@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="EmpApp">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/src/EmpApp.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
