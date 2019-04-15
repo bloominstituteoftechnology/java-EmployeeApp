@@ -1,0 +1,59 @@
+This guided project is in two parts. First we do the standard hello world application and then a more complex application.
+
+The Hello World Application
+Note that this is a two class hello world program. Explain what a hello world application is
+
+make directory
+<work dir>/helloworld/src/hello
+
+Under that directory
+Create the HelloWorld.java code
+Explain the new Greeter call
+
+Create the Greeter.java code
+
+Compile code from the src directory
+javac hello/*.java
+
+Create the jar archive file
+jar cvfe helloworld.jar hello.HelloWorld hello/*.class
+     c - create a new archive file with given name
+     v - generate verbose output
+     f - specifies the jar output file to be created
+     e - sets the main class also called the entry point
+
+execute the file
+java -jar helloworld.jar
+
+
+
+*** Second project
+
+Create directory
+<work dir>/EmployeeAPP/src/employeeApp
+
+Create employee.java
+
+Create company.java
+
+Create Healthplan.java
+
+Create Main.java
+Give data
+
+Complile showing how h1 does not appear
+
+Do practice rounds 1 - 4 in order
+enter the code for the practice round and then execute the code by doing the following
+
+from the src directory
+
+javac employeeApp/*.java
+
+jar cvfe EmpApp.jar employeeApp.Main employeeApp/*.class
+     c – create new archive file with given name
+     v – generate verbose output
+     f – specifies the jar output file to be created
+     e – sets the main class also called the entry point
+
+java -jar EmpApp.jar

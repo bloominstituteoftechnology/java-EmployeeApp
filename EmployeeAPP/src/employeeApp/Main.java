@@ -27,6 +27,8 @@ public class Main
         Employee emp5 = new Employee("My", "Name", 45000, Boolean.TRUE, c2.id, h2.getId());
 
 
+    // start with practice here
+    // First practice round
         System.out.println("*** Query Data");
 
         System.out.println(c1);
@@ -37,6 +39,7 @@ public class Main
         System.out.println();
         c1.debt = -c1.debt;
 
+    // second practice round
         System.out.println("Original divided 5 " + (c1.debt / 5));
         System.out.println("Original mod 2     " + (c1.debt % 2));
         System.out.println("Original divided 7 " + (c1.debt / 7));
@@ -47,6 +50,8 @@ public class Main
         System.out.println("Debt: " + myStr + c1.debt);
         System.out.println("Debt: " + Integer.parseInt(myStr) + c1.debt);
 
+
+    // third practice round
         System.out.println(emp1.toString());
         System.out.println();
 
@@ -65,6 +70,7 @@ public class Main
         System.out.println();
 
 
+    // fourth practice round
         // https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html
         System.out.println("*** Company Names");
         System.out.println("Combined");
@@ -89,6 +95,5 @@ public class Main
         workWithData();
 
         // System.out.println(h1);
-
     }
 }
