@@ -1,4 +1,4 @@
-package employeeApp;;
+package employeeApp;
 
 public class Company
 {

@@ -1,4 +1,4 @@
-package employeeApp;;
+package employeeApp;
 
 public class Employee
 {
@@ -8,10 +8,10 @@ public class Employee
     private String lname;
     private double salary;
     private Boolean has401K;
-    private int companyID;
-    private int healthPlanID;
+    private int companyId;
+    private int healthPlanId;
 
-    public Employee(String fname, String lname, double salary, Boolean has401K, int companyID, int healthPlanID)
+    public Employee(String fname, String lname, double salary, Boolean has401K, int companyId, int healthPlanId)
     {
         maxId++;
         id = maxId;
@@ -20,8 +20,8 @@ public class Employee
         this.lname = lname;
         this.salary = salary;
         this.has401K = has401K;
-        this.companyID = companyID;
-        this.healthPlanID = healthPlanID;
+        this.companyId = companyId;
+        this.healthPlanId = healthPlanId;
     }
 
     public int getId()
@@ -64,24 +64,24 @@ public class Employee
         this.has401K = has401K;
     }
 
-    public int getCompanyID()
+    public int getCompanyId()
     {
-        return companyID;
+        return companyId;
     }
 
-    public void setCompanyID(int companyID)
+    public void setCompanyId(int companyId)
     {
-        this.companyID = companyID;
+        this.companyId = companyId;
     }
 
-    public int getHealthPlanID()
+    public int getHealthPlanId()
     {
-        return healthPlanID;
+        return healthPlanId;
     }
 
-    public void setHealthPlanID(int healthPlanID)
+    public void setHealthPlanId(int healthPlanId)
     {
-        this.healthPlanID = healthPlanID;
+        this.healthPlanId = healthPlanId;
     }
 
     @Override
@@ -92,8 +92,8 @@ public class Employee
                         "lname: " + lname + "\n" +
                         "salary: " + salary + "\n" +
                         "has401K: " + has401K + "\n" +
-                        "companyID: " + companyID  + "\n" +
-                        "healthPlanID: " + healthPlanID + "\n";
+                        "companyId: " + companyId  + "\n" +
+                        "healthPlanId: " + healthPlanId + "\n";
         return rtnStr;
     }
 }

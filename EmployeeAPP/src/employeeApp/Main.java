@@ -1,4 +1,4 @@
-package employeeApp;;
+package employeeApp;
 
 /*
 - Create Company
