@@ -11,7 +11,8 @@ public class Company
 
     public Company(String name, int debt)
     {
-        this.id = maxId++;
+        maxId++;
+        id = maxId;
         this.name = name;
         this.debt = debt;
     }

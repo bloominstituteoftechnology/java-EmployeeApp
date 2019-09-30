@@ -17,14 +17,14 @@ public class Main
 
         Company c1 = new Company("Company A", 100);
 
-        Employee emp1 = new Employee("Steve", "Green", 45000, Boolean.TRUE, c1.id, h1.getId());
-        Employee emp2 = new Employee("May", "Ford", 80000, Boolean.TRUE, c1.id, h2.getId());
+        Employee emp1 = new Employee("Steve", "Green", 45000, true, c1.id, h1.getId());
+        Employee emp2 = new Employee("May", "Ford", 80000, true, c1.id, h2.getId());
 
         Company c2 = new Company("Company B", 100);
 
-        Employee emp3 = new Employee("Doug", "Jones", 75000, Boolean.TRUE, c2.id, h2.getId());
-        Employee emp4 = new Employee("John", "Jones", 80000, Boolean.FALSE, c2.id, h1.getId());
-        Employee emp5 = new Employee("My", "Name", 45000, Boolean.TRUE, c2.id, h2.getId());
+        Employee emp3 = new Employee("Doug", "Jones", 75000, true, c2.id, h2.getId());
+        Employee emp4 = new Employee("John", "Jones", 80000, false, c2.id, h1.getId());
+        Employee emp5 = new Employee("My", "Name", 45000, true, c2.id, h2.getId());
 
 
     // start with practice here

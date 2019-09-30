@@ -7,11 +7,11 @@ public class Employee
     private String fname;
     private String lname;
     private double salary;
-    private Boolean has401K;
+    private boolean has401K;
     private int companyId;
     private int healthPlanId;
 
-    public Employee(String fname, String lname, double salary, Boolean has401K, int companyId, int healthPlanId)
+    public Employee(String fname, String lname, double salary, boolean has401K, int companyId, int healthPlanId)
     {
         maxId++;
         id = maxId;
@@ -54,12 +54,12 @@ public class Employee
         this.salary = salary;
     }
 
-    public Boolean getHas401K()
+    public boolean getHas401K()
     {
         return has401K;
     }
 
-    public void setHas401K(Boolean has401K)
+    public void setHas401K(boolean has401K)
     {
         this.has401K = has401K;
     }
