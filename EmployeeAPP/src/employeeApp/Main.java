@@ -40,30 +40,31 @@ public class Main
         c1.debt = -c1.debt;
 
     // second practice round
+        System.out.println("\n*** Working with Number ***");
         System.out.println("Original divided 5 " + (c1.debt / 5));
         System.out.println("Original mod 2     " + (c1.debt % 2));
         System.out.println("Original divided 7 " + (c1.debt / 7));
         System.out.println("Original divided 7 " + (c1.debt / 7.0));
         System.out.println("Original divided 7 " + ((double)c1.debt / 7));
         System.out.println();
+        System.out.println("*** Printing Numbers and Characters ***");
         String myStr = "100";
         System.out.println("Debt: " + myStr + c1.debt);
         System.out.println("Debt: " + Integer.parseInt(myStr) + c1.debt);
 
 
     // third practice round
+        System.out.println("\n*** Printing Objects ***");
         System.out.println(emp1.toString());
         System.out.println();
 
         System.out.println(emp5.toString());
         System.out.println();
 
-
         System.out.println("*** Emp1 gets a raise");
         emp1.setSalary(emp1.getSalary() + (emp1.getSalary() * 0.03));
         System.out.println(emp1.toString());
         System.out.println();
-
 
         System.out.println("*** 401K amount for emp5");
         System.out.println(emp5.getSalary() * c1.match401K);
@@ -72,11 +73,11 @@ public class Main
 
     // fourth practice round
         // https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html
-        System.out.println("*** Company Names");
+        System.out.println("*** Company Names ***");
         System.out.println("Combined");
         System.out.println(c1.name + " " + c2.name);
         System.out.println("No Vowels");
-        String noVowels = c1.name.toLowerCase().replaceAll("[a,e,i,o.u]", "_");
+        String noVowels = c1.name.toLowerCase().replaceAll("[aeiou]", "_");
         System.out.println(noVowels);
         System.out.println();
 
