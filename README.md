@@ -18,7 +18,7 @@ A Main class with the main starting method calls another method where the actual
 
 The layout of the application can best be understood by viewing the Javadoc for the application.
 
-[Java Docs javadocs/index.html](javadocs/../EmployeeAPP/javadocs/index.html)
+[Java Docs javadocs/index.html](EmployeeAPP/javadocs/index.html)
 
 ### Results
 
