@@ -16,9 +16,9 @@ Thus it concentrates on how Classes and Objects are used in a Java program and h
 
 A Main class with the main starting method calls another method where the actual work is done.
 
-The layout of the application can best be understood by viewing the Javadoc for the application.
+The layout of the application is
 
-[Java Docs javadocs/index.html](EmployeeAPP/javadocs/index.html)
+![Application Layout](application_diagram.png)
 
 ### Results
 
