@@ -22,7 +22,7 @@ The layout of the application is
 
 ### Results
 
-The main method calls another method to do all the work. Basically a series of Java statements are executed to show various aspects of the language. Running the application produces the following output
+The main method calls another method to do all the work. A series of Java statements are executed to show various aspects of the language. Running the application produces the following output
 
 ```Text
 *** Query Data
