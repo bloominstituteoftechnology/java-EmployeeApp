@@ -1,3 +1,107 @@
+# Spring 1 Java Fundamentals - Module 1 JDK and Java Classes
+
+## Overview
+
+The fundamentals of Java are discussed during these modules. Specific emphasis is placed on Java constructs needed for Web API programming with the Spring Framework.
+
+## Objectives
+
+Overall the student will be able to construct a Java applications using Object Oriented Programming design principles and using the Java Development Kit (JDK)
+
+At the end of this module, a student should be able to:
+
+* understand what makes Java a programming language worth studying
+* explain the basic concept of Object Oriented Programming and how they relate to Java
+* create and manipulate the base Java types which include Boolean, byte, char (including Strings), short, int, long, float, and double
+* craft multiple Java Classes which include comments, constructors, static and instance variables (fields), accessors, public and private methods * and instantiate and use Objects of these classes.
+* implement and use the String and Date data types
+* understand the reason behind and use of BigDecimals (*** OPTIONAL ***)
+* craft and use for loops (*** OPTIONAL ***)
+* craft and use while loops and do while loops (*** OPTIONAL ***)
+* craft and use recursion (*** OPTIONAL ***)
+* craft and use Java conditionals, branching, including if-then, if-then-else, and switch statements (*** OPTIONAL ***)
+
+### Core Objectives
+
+* Understand what makes Java a programming language worth studying
+* Explain the basic concept of Object Oriented Programming and how they relate to Java
+* Craft multiple Java Classes which include comments, constructors, static and instance variables (fields), accessors, public and private methods and instantiate and use Objects of these classes
+
+### Objective to Cover if Time Permits
+
+* implement and use the String and Date data types
+* understand the reason behind and use of BigDecimals (*** OPTIONAL ***)
+* craft and use for loops (*** OPTIONAL ***)
+* craft and use while loops and do while loops (*** OPTIONAL ***)
+* craft and use recursion (*** OPTIONAL ***)
+* craft and use Java conditionals, branching, including if-then, if-then-else, and switch statements (*** OPTIONAL ***)
+
+----
+
+## Before Class
+
+### Instructor Resources
+
+* Repos to Keep Updated
+  * [Teacher's Edition of Class LambdaJX](https://github.com/LambdaSchool/LambdaJX.git)
+  * [Guided Project java-EmployeeApp](https://github.com/LambdaSchool/java-EmployeeApp.git)
+  * [Optional Guided Project]()
+  * [Module Project java-SnackBar](https://github.com/LambdaSchool/java-SnackBar.git)
+
+* Guided Project Repos
+  * java-EmployeeApp - Guided Project build from scratch
+  * [java-EmployeeApp - Guided Project Solution](https://github.com/LambdaSchool/java-EmployeeApp.git)
+
+* Notes to Presenter
+  * Watch pacing in Guided Project.
+  * Do NOT add javadocs to the Guided Project code. Those will be available in the final Repo.
+  * Remember this is the first Java program we have written together. Be very explicit about each step!
+
+### Student-Facing Resources and Materials
+
+![Optional Objectives Video](https://youtu.be/_FUd49FHk78)
+
+#### Software Needed for this Guided Project
+
+* Java Development Kit (JDK) - at least version 11
+* Your choice of Text Editor
+
+#### Previous Lessons
+
+![Model Presentation of Guided Project](https://lambdaschool.github.io/java-curriculum-assets/Sprint%2010%20-%20WEB%20Java%20Fundamentals/Module%201%20-%20JX%20Java%20-%20I%20JDK%20and%20Java%20Classes/assets/novideo.png)
+
+#### Preclass Announcements
+
+@channel
+Good Morning. Welcome to the first day of Java! You will need to have the Java Development Kit and the text editor of your choice installed for today's guided project. Java is a new programming language following a new programming style. Learning Java will be difficult but certainly worthwhile. Remember to work through as much of the TK and Canvas material for today as possible. I realize TK (for course introductions and software installations) and Canvas (for everything else) has much information. Do your best and over the next two or three days you will get all caught up! See you at 9:00!
+
+For now, the material for the actual course is the same in Canvas and TK. However, Canvas should be your goto platform as it is the one that will be kept up-to-date and the one where you can turn in your assignments!!!
+
+### Training Kit Hour
+
+Objective 1 - Java Introduction.md
+Objective 2 - Object Oriented Programming.md
+Objective 3 - Base Data Types.md
+Objective 4 - Craft Java Constructs.md
+Objective 5 - Strings and Dates.md
+Objective 6 - BigDecimal OPTIONAL.md
+Objective 7 - FOR Loops OPTIONAL.md
+Objective 8 - WHILE Loops OPTIONAL.md
+Objective 9 - Recursion OPTIONAL.md
+Objective 10 - Branching OPTIONAL.md
+
+#### Training Kit Announcements
+
+< NONE >
+
+----
+
+## During Class
+
+### Morning Announcements
+
+< NONE >
+
 #### Entry Ticket
 
 Please take a moment to reflect on what you have previously learned and hope to learn by completing this Google Survey. Remember your responses will be read by your instructor to help guide future lessons.
@@ -138,6 +242,17 @@ Today we covered the fundamental aspects of Java, the foundational concepts that
   * Collections
   * Loops
   * Branching
+
+----
+
+## After Class
+
+### Introduce Module Project
+
+* Remember it is based on what we did in the guided project!
+* The Snack Bar project is a Java project that has been used to introduce Java since its inception. Every Java programmer needs to have done a Snack Bar project. Here is your chance!
+* [Snack Bar Module Project](https://github.com/LambdaSchool/java-SnackBar.git)
+  * [Module Project Solution and Rubric](https://github.com/LambdaSchool/LambdaJX/tree/Curriculum-Work/solutions/Module%20Solutions/Sprint%2010%20-%20WEB%20Java%20Fundamentals/Module%201%20-%20JX%20Java%20-%20I%20JDK%20and%20Java%20Classes)
 
 ### Exit Ticket
 
