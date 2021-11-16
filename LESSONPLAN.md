@@ -43,14 +43,14 @@ At the end of this module, a student should be able to:
 ### Instructor Resources
 
 * Repos to Keep Updated
-  * [Teacher's Edition of Class LambdaJX](https://github.com/LambdaSchool/LambdaJX.git)
-  * [Guided Project java-EmployeeApp](https://github.com/LambdaSchool/java-EmployeeApp.git)
+  * [Teacher's Edition of Class LambdaJX](https://github.com/BloomInstituteOfTechnology/LambdaJX.git)
+  * [Guided Project java-EmployeeApp](https://github.com/BloomInstituteOfTechnology/java-EmployeeApp.git)
   * [Optional Guided Project]()
-  * [Module Project java-SnackBar](https://github.com/LambdaSchool/java-SnackBar.git)
+  * [Module Project java-SnackBar](https://github.com/BloomInstituteOfTechnology/java-SnackBar.git)
 
 * Guided Project Repos
   * java-EmployeeApp - Guided Project build from scratch
-  * [java-EmployeeApp - Guided Project Solution](https://github.com/LambdaSchool/java-EmployeeApp.git)
+  * [java-EmployeeApp - Guided Project Solution](https://github.com/BloomInstituteOfTechnology/java-EmployeeApp.git)
 
 * Notes to Presenter
   * Watch pacing in Guided Project.
@@ -160,7 +160,7 @@ public class Main
 {
     private static void workWithData ()
     {
-        System.out.println("Welcome to Lambda School's Java!!!");
+        System.out.println("Welcome to BloomTech's Java!!!");
     }
 
     public static void main(String[] args)
@@ -251,8 +251,8 @@ Today we covered the fundamental aspects of Java, the foundational concepts that
 
 * Remember it is based on what we did in the guided project!
 * The Snack Bar project is a Java project that has been used to introduce Java since its inception. Every Java programmer needs to have done a Snack Bar project. Here is your chance!
-* [Snack Bar Module Project](https://github.com/LambdaSchool/java-SnackBar.git)
-  * [Module Project Solution and Rubric](https://github.com/LambdaSchool/LambdaJX/tree/Curriculum-Work/solutions/Module%20Solutions/Sprint%2010%20-%20WEB%20Java%20Fundamentals/Module%201%20-%20JX%20Java%20-%20I%20JDK%20and%20Java%20Classes)
+* [Snack Bar Module Project](https://github.com/BloomInstituteOfTechnology/java-SnackBar.git)
+  * [Module Project Solution and Rubric](https://github.com/BloomInstituteOfTechnology/LambdaJX/tree/Curriculum-Work/solutions/Module%20Solutions/Sprint%2010%20-%20WEB%20Java%20Fundamentals/Module%201%20-%20JX%20Java%20-%20I%20JDK%20and%20Java%20Classes)
 
 ### Exit Ticket
 
